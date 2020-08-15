@@ -2,26 +2,27 @@
 
 
 ## Intent
-The idea is that if you don't want other code accessing the complex bits of a class or process, you hide those bits by covering them with a Facade.
-The Facade pattern is a simple structure laid over a more complex structure.
+- The idea is that if you don't want other code accessing the complex bits of a class or process, you hide those bits by covering them with a Facade.
+
+- The Facade pattern is a simple structure laid over a more complex structure.
 
 ## The Problem
 
-To demonstrate how we use the Facade pattern, let's think about a restaurant.
+- To demonstrate how we use the Facade pattern, let's think about a restaurant.
 
-In most kitchens, the work area is divided into sections. For this post, we'll assume that our kitchen is divided into three areas: Hot Prep, where hot dishes like meats and pasta are made; Cold Prep, where cold dishes like salads and desserts are made; and the Bar, where drinks are prepared.
+- In most kitchens, the work area is divided into sections. For this post, we'll assume that our kitchen is divided into three areas: Hot Prep, where hot dishes like meats and pasta are made; Cold Prep, where cold dishes like salads and desserts are made; and the Bar, where drinks are prepared.
 
-If you are a patron at this restaurant and you sit down at a booth, do you care what part of your meal is made at what section of the restaurant? Of course not. There is a natural layer of abstraction in place: the server.
+- If you are a patron at this restaurant and you sit down at a booth, do you care what part of your meal is made at what section of the restaurant? Of course not. There is a natural layer of abstraction in place: the server.
 
 
 ## The Solution
 
-A simple (or at least simpler) overlay on top of a group of more complex subsystems. 
+- A simple (or at least simpler) overlay on top of a group of more complex subsystems. 
 
 ## The Rundown
-Type: Structural
+- Type: Structural
 
-Useful? 5/5 (Extremely)
+- Useful? 5/5 (Extremely)
 
 
 ### The Participants
