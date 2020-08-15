@@ -36,30 +36,28 @@
 
 
 ## CSharp Implementation
-The facade pattern is so general that it applies to almost every major application, especially those where refactoring or modifying pieces of applications are needed for various reasons.
+- The facade pattern is so general that it applies to almost every major application, especially those where refactoring or modifying pieces of applications are needed for various reasons.
 
 ## Code (CSharp)
 ![Facade](/Facade_Design_Pattern/Assets/Facade.png)
 
 
 ## Applicability
-
+- Anytime you want to add a layer of abstraction above the Subsystems whilst also knowing which Subsystem to delegate appropriate work to.
+- It basically saves you the headache of delegating. It does it for you.
 
 ## Good and Bad
 
-Good: Hiding complexity which cannot be refactored away | There is really no known drawbacks to Facade. 
+- Good: Hiding complexity which cannot be refactored away | There is really no known drawbacks to Facade. 
 
-More Good: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
+- More Good: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
 
 
 ## Summary
 
-The Facade pattern is a simple (or at least simpler) overlay on top of a group of more complex subsystems. The Facade knows which Subsystem to direct different kinds of work toward. And it is really, really common, so it's one of the patterns we should know thoroughly.
+- The Facade pattern is a simple (or at least simpler) overlay on top of a group of more complex subsystems. The Facade knows which Subsystem to direct different kinds of work toward. And it is really, really common, so it's one of the patterns we should know thoroughly.
 
-As always, I like to provide code with my tutorials, so the repository for this pattern is over on GitHub and contains all of the sample code used here.
 
-Happy Coding!
-
-(That's the end of the post. Yes, seriously. No I'm not writing another one right this second, you'll just have to wait until tomorrow. So there.)
 
 ### Citations
+![Matthew Jones - The Facade Design Pattern](https://www.exceptionnotfound.net/facade-pattern-in-csharp/)
