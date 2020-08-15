@@ -20,8 +20,9 @@ A simple (or at least simpler) overlay on top of a group of more complex subsyst
 
 ## The Rundown
 Type: Structural
+
 Useful? 5/5 (Extremely)
-Good For: Hiding complexity which cannot be refactored away.
+
 
 ### The Participants
 
@@ -37,15 +38,17 @@ Good For: Hiding complexity which cannot be refactored away.
 The facade pattern is so general that it applies to almost every major application, especially those where refactoring or modifying pieces of applications are needed for various reasons.
 
 ## Code (CSharp)
-![Facade](./Assets/Facade.png)
+![Facade](Assets/Facade.png)
 
 
 ## Applicability
 
 
 ## Good and Bad
-| Good | Bad |
-Hiding complexity which cannot be refactored away | There is really no known drawbacks to Facade. It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
+
+Good: Hiding complexity which cannot be refactored away | There is really no known drawbacks to Facade. 
+
+Bad: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
 
 
 <br />
