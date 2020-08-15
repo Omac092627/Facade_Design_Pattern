@@ -38,7 +38,7 @@ Useful? 5/5 (Extremely)
 The facade pattern is so general that it applies to almost every major application, especially those where refactoring or modifying pieces of applications are needed for various reasons.
 
 ## Code (CSharp)
-![Facade](Assets/Facade.png)
+![Facade](/Assets/Facade.png)
 
 
 ## Applicability
@@ -51,10 +51,8 @@ Good: Hiding complexity which cannot be refactored away | There is really no kno
 Bad: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
 
 
-<br />
+## Summary
 
-
-##Summary
 The Facade pattern is a simple (or at least simpler) overlay on top of a group of more complex subsystems. The Facade knows which Subsystem to direct different kinds of work toward. And it is really, really common, so it's one of the patterns we should know thoroughly.
 
 As always, I like to provide code with my tutorials, so the repository for this pattern is over on GitHub and contains all of the sample code used here.
