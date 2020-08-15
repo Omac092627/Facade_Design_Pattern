@@ -38,7 +38,7 @@ Useful? 5/5 (Extremely)
 The facade pattern is so general that it applies to almost every major application, especially those where refactoring or modifying pieces of applications are needed for various reasons.
 
 ## Code (CSharp)
-![Facade](/Assets/Facade.png)
+![Facade](/Facade_Design_Pattern/Assets/Facade.png)
 
 
 ## Applicability
