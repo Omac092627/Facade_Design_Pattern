@@ -49,7 +49,7 @@ The facade pattern is so general that it applies to almost every major applicati
 
 Good: Hiding complexity which cannot be refactored away | There is really no known drawbacks to Facade. 
 
-Bad: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
+More Good: It provides a unified interface to a set of interfaces in a subsystem. However, it does not ab ovo prevent clients from using the subsystem interfaces directly. So you are not forced to make any unwanted compromises with it. It is a win-win situation.
 
 
 ## Summary
